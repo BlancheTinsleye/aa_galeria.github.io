@@ -3,6 +3,7 @@ body {
     display: flex;
     flex: wrap;
     justify-content: center;
+    /* align-content: center; */
 }
 
 .top {
@@ -20,8 +21,6 @@ body {
 }
 
 .top_elmnts {
-    /* AA_GALERIA */
-
     font-family: 'Old Standard TT';
     font-style: normal;
     font-weight: 700;
@@ -31,7 +30,6 @@ body {
     color: #F7B09A;
     text-decoration: none;
 
-
 }
 
 .aag_1 {
@@ -40,4 +38,11 @@ body {
     height: 95px;
     border-radius: 10px;
 
+}
+
+.cont1 {
+    margin-top: 90px;
+    height: 200px;
+    width: 95%;
+    background-color: blue;
 }
