@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(69 100 120);
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 95%;
+    background-color: rgb(69 100 120);;
+    border-bottom: 2px solid rgb(16 25 32);
+    /* border-color: blueviolet; */
+    position: absolute;
+    top: 5px;
+    /* margin-top: 0px; */
+}
+
+.top_elmnts {
+    /* AA_GALERIA */
+
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 12px;
+
+    color: #F7B09A;
+    text-decoration: none;
+
+
+}
+
+.aag_1 {
+    height: 100px;
+    width: 95px;
+    height: 95px;
+    border-radius: 10px;
+
+}
