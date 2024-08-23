@@ -4,6 +4,9 @@ body {
     flex: wrap;
     justify-content: center;
     /* align-content: center; */
+    /* transition: font-size ease,
+    height ease,
+    width ease; */
 }
 
 .top {
@@ -43,6 +46,9 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    /* transition: font-size ease,
+    height ease,
+    width ease; */
 }
 
 .img_cont {
@@ -142,10 +148,15 @@ body {
         font-size: 1.5rem; /* Smaller size for narrower screens */
         height: 50px;
     }
+
+    .aag_1_img {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 /* @media (max-width: 500px) {
     h1 {
-        font-size: 1rem; /* Even smaller size for very narrow screens */
+        font-size: 1rem; /* Even smaller size for very narrow screens
     }
 } */
