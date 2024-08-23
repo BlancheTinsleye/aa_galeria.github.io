@@ -2,7 +2,9 @@ body {
     background-color: rgb(69 100 120);
     display: flex;
     flex: wrap;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     /* align-content: center; */
     /* transition: font-size ease,
     height ease,
@@ -18,7 +20,7 @@ body {
     background-color: rgb(69 100 120);
     border-bottom: 2px solid rgb(16 25 32);
     /* border-color: blueviolet; */
-    position: absolute;
+    position: sticky;
     top: 5px;
     /* margin-top: 0px; */
 }
@@ -38,11 +40,12 @@ body {
 }
 
 .cont1 {
-    margin-top: 90px;
+    /* margin-top: 90px; */
     height: 600px;
     width: 95%;
     /* background-color: pink; */
-    /* background-color: rgb(69 100 120); */
+    /* background-color: yellow; */
+    background-color: rgb(69 100 120);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -95,14 +98,12 @@ body {
     
     margin: 0%;
 
-
     text-shadow: 
                 2px 2px 0 rgba(247, 176, 154, 0.75),  
                /* -1px -1px 0 rgba(247, 176, 154, 0.75), */
                 1px -1px 0 rgba(247, 176, 154, 0.75),
                -2px 2px 0 rgba(247, 176, 154, 0.75);
     
-
 }
 
 .aag3 {
@@ -160,3 +161,39 @@ body {
         font-size: 1rem; /* Even smaller size for very narrow screens
     }
 } */
+
+.cont2 {
+    height: 100px;
+    width: 101%;
+    background-color: #101920;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.socmed_link {
+    text-decoration: none;
+
+    /* Instagram */
+
+    width: 47px;
+    height: 12px;
+
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 12px;
+
+    color: rgb(69 100 120);
+
+    transition: color 0.5s,
+    text-shadow 0.5s;
+
+}
+
+.socmed_link:hover {
+    color: rgb(247, 176, 154);
+    text-shadow: 0 0 5px rgb(247, 176, 154);
+}
