@@ -155,12 +155,12 @@ body {
         height: 200px;
     }
 
-    .img_cont {
+    /* .img_cont {
         height: 100px;
-    }
+    } */
 
     .cont2 {
-        /* margin-top: 200px; */
+        margin-top: 30px;
     }
 }
 
