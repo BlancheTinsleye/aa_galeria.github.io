@@ -54,10 +54,10 @@ body {
     width ease; */
 }
 
-.img_cont {
+/* .img_cont { */
     /* background-color: blue; */
     
-}
+/* } */
 
 .aag_1_img {
     /* height: 100px; */
@@ -67,10 +67,10 @@ body {
     margin: 30px;
 
 }
-
+/* 
 .aag_cont {
-    /* background-color: blue; */
-}
+    background-color: blue;
+} */
 
 .aag1 {
     font-family: 'Old Standard TT';
@@ -84,8 +84,6 @@ body {
     margin-top: 20px;
 
 }
-
-
  
 .aag2 {
     font-family: 'Old Standard TT';
@@ -144,32 +142,6 @@ body {
     margin: 0%;
 }
 
-@media (max-width: 800px) {
-    .aag1, .aag2, .aag3, .aag4 {
-        font-size: 3rem; /* Smaller size for narrower screens */
-        height: 50px;
-    }
-
-    .aag_1_img {
-        width: 200px;
-        height: 200px;
-    }
-
-    /* .img_cont {
-        height: 100px;
-    } */
-
-    .cont2 {
-        margin-top: 30px;
-    }
-}
-
-/* @media (max-width: 500px) {
-    h1 {
-        font-size: 1rem; /* Even smaller size for very narrow screens
-    }
-} */
-
 .cont2 {
     height: 100px;
     width: 101%;
@@ -179,7 +151,7 @@ body {
     justify-content: space-around;
     align-items: center;
     margin-top: 140px;
-
+    margin-bottom: 20px;
 
 }
 
@@ -207,4 +179,155 @@ body {
 .socmed_link:hover {
     color: rgb(247, 176, 154);
     text-shadow: 0 0 5px rgb(247, 176, 154);
+}
+
+.cont3 {
+    width: 95%;
+    height: 800px;
+    /* background-color: pink; */
+    /* background-color: yellow; */
+    /* background-color: rgb(69 100 120); */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.aag_intro, .me_intro {
+    /* width: 430px; */
+    height: 575px;
+
+    background: rgb(16, 25, 32);
+    border-radius: 30px;
+
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.aag2_img, .me_intro_img {
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    /* display: flex;
+    flex-wrap: wrap; */
+
+    transition: opacity 0.3s,
+    color 0.3s;
+}
+
+.aag_intro_txt {
+    margin: 0px;
+    width: 350px;
+    /* height: 170px; */
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+                
+    color: #456478;
+}
+
+.me_intro_txt {
+    margin: 0px;
+    width: 350px;
+    /* height: 30px; */
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    /* line-height: 30px; */
+    text-align: center;
+                
+    color: #456478;
+}
+
+.me_intro_img:hover {
+    opacity: 0;
+}
+
+.glow_aag {
+    transition: color 0.5s,
+    text-shadow 0.5s;
+}
+
+.aag_intro:hover .glow_aag {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(247, 176, 154);
+}
+
+.me_intro:hover .mi_name{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(247, 176, 154);
+}
+
+.mi_name {
+    margin: 0px;
+    width: 235px;
+    /* height: 130px; */
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    /* line-height: 19px; */
+    text-align: center;
+
+    color: #456478;
+
+    transition: color 0.5s,
+    text-shadow 0.5s;
+
+}
+
+.cont4 {
+    width: 101%;
+    background-color: #101920;
+    color: #F7B09A;
+}
+
+
+@media (max-width: 800px) {
+    .aag1, .aag2, .aag3, .aag4 {
+        font-size: 3rem; /* Smaller size for narrower screens */
+        height: 50px;
+    }
+
+    .aag_1_img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .aag2_img, .me_intro_img {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* .img_cont {
+        height: 100px;
+    } */
+
+    .cont2 {
+        margin-top: 30px;
+    }
+
+    .aag_intro_txt, .me_intro_txt {
+        line-height: 20px;
+        font-size: 15px;
+
+        width: 50px;
+    }
+
+    .mi_name, .aag_intro_txt, .me_intro_txt {
+        height: 0px;
+    }
+
+    .mi_name {
+        font-size: 20px;
+        width: 140px;
+    }
 }
