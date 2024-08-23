@@ -41,7 +41,7 @@ body {
 
 .cont1 {
     /* margin-top: 90px; */
-    height: 600px;
+    /* height: 600px; */
     width: 95%;
     /* background-color: pink; */
     /* background-color: yellow; */
@@ -146,13 +146,21 @@ body {
 
 @media (max-width: 800px) {
     .aag1, .aag2, .aag3, .aag4 {
-        font-size: 1.5rem; /* Smaller size for narrower screens */
+        font-size: 3rem; /* Smaller size for narrower screens */
         height: 50px;
     }
 
     .aag_1_img {
         width: 200px;
         height: 200px;
+    }
+
+    .img_cont {
+        height: 100px;
+    }
+
+    .cont2 {
+        /* margin-top: 200px; */
     }
 }
 
@@ -167,8 +175,11 @@ body {
     width: 101%;
     background-color: #101920;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin-top: 140px;
+
 
 }
 
