@@ -11,6 +11,33 @@ body {
     width ease; */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.upper {
+    position: absolute;
+    top: 0;
+}
+
+/* .navigator {
+    display: flex;
+    flex: wrap;
+    width: 101%;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    width: 101%;
+}    */
+
+/* .s1 { */
+    /* display: flex; */
+    /* flex: wrap; */
+    /* width: 101%; */
+/* } */
+
 .top {
     display: flex;
     justify-content: space-around;
@@ -287,7 +314,52 @@ body {
 .cont4 {
     width: 101%;
     background-color: #101920;
-    color: #F7B09A;
+
+    display: flex;
+    /* align-content: center; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+
+
+.proj1, .proj2, .proj3, .proj4 {
+    height: 575px;
+
+    /* background: rgb(16, 25, 32); */
+    /* background-color: pink; */
+    border-radius: 30px;
+    margin: 20px;
+
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    border: 1px solid #F7B09A;
+    border-radius: 10px;
+
+}
+
+.proj_img {
+    height: 350px;
+    margin: 20px;
+}
+
+.proj_ttl {
+    margin: 0px;
+    width: 350px;
+    /* height: 30px; */
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    /* line-height: 30px; */
+    text-align: center;
+                
+    color: #456478;
 }
 
 
