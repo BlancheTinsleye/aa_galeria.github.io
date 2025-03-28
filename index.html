@@ -3,13 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/blobs.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/navigate.css">
+
+    <!-- MENU -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     
     <title>AA GALERIA</title>
 </head>
-<body onload="updateTime()">
-    <h2>The current time is: <span id="time"></span></h2>
-    <p>just checking</p>
+<body>
+    <div id="blob1"></div>
+    <div id="navigatecont">
+        <span id="menuicon" class="material-symbols-outlined">
+            menu
+        </span>
+        <!-- <a href="" id="tohome">Home</a>
+        <a href="" id="toabtme">About me</a> -->
+    </div>
+    <div id="home">
+        <h1 id="AAGALERIATXT"><span id="wcTXT">WELCOME TO</span><br>AA GALERIA</h1>
+
+        <div id="imgcont">
+            <div id="sqr1"></div>
+            <img id="aagMAINIMG" src="https://res.cloudinary.com/damtc4g0q/image/upload/v1724324922/aagal_d73ar1.jpg" alt="">
+            
+        </div>
+    </div>
+    
 </body>
 
-<script src="scripts/time.js"></script>
+<!-- <script src="scripts/time.js"></script> -->
 </html>

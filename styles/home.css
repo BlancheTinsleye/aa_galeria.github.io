@@ -1,0 +1,41 @@
+#wcTXT {
+    font-size: 15px;
+    text-shadow: none;
+}
+
+#AAGALERIATXT {
+    text-align: center;
+    margin: 0px;
+    font-size: 40px;
+    text-shadow: 2px 2px 0px black;
+}
+
+#imgcont {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+#aagMAINIMG, #sqr1 {
+    grid-area: 1/1;
+}
+
+#aagMAINIMG {
+    height: 200px;
+    width: 200px;
+    
+
+    /* box-shadow: 10px 10px 0px black; */
+}
+
+#sqr1 {
+    height: 190px;
+    width: 190px;
+    background-color: transparent;
+
+    outline: black solid 5px;
+
+    margin-bottom: 20px;
+    margin-right: 20px;
+    /* margin-left: 20px; */
+}

@@ -1,0 +1,16 @@
+#blob1 {
+    height: 400px;
+    /* aspect-ratio: 1; */
+    width: 400px;
+    background-color: #fadeea;
+    /* color: pink; */
+    border-radius: 47% 53% 73% 27% / 46% 54% 46% 54%;
+
+    /* border: 5px solid #FFF591; */
+    /* border */
+    position: absolute;
+    top: -100px;
+    left: -150px;
+    /* right: -50px; */
+    z-index: -1;
+}

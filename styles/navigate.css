@@ -1,0 +1,15 @@
+#navigatecont {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    width: 100%;
+    /* background-color: #f7bde6; */
+}
+
+#menuicon {
+    /* font-family: "delius";
+    text-decoration: none;
+    margin: 10px; */
+    color: #dab33c;
+    font-size: 30px;
+}
