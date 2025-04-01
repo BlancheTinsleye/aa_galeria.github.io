@@ -7,32 +7,101 @@
     <link rel="stylesheet" href="styles/blobs.css">
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/navigate.css">
+    <script src="scripts/finisher-header.es5.min.js" type="text/javascript"></script>
 
     <!-- MENU -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
-    
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" /> -->
+
+    <!-- CLOSE -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=close" /> -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
     <title>AA GALERIA</title>
 </head>
-<body>
-    <div id="blob1"></div>
-    <div id="navigatecont">
-        <span id="menuicon" class="material-symbols-outlined">
-            menu
-        </span>
-        <!-- <a href="" id="tohome">Home</a>
-        <a href="" id="toabtme">About me</a> -->
+<body >
+    <div class="header finisher-header" style="width: 100%; height: 100vh;">
+        <div id="navigatecont">
+
+            <a href="#" class="toggle-btn" onclick="toggleSidebar()">
+                <span id="menuicon" class="material-symbols-outlined">
+                    menu
+                </span>
+            </a>
+            <!-- <a href="" id="tohome">Home</a>
+            <a href="" id="toabtme">About me</a> -->
+        </div>
+        <!-- Logo, navigation, etc. -->
+        <img id="aagMAINIMG" src="https://res.cloudinary.com/damtc4g0q/image/upload/v1724324922/aagal_d73ar1.jpg" alt="">
     </div>
-    <div id="home">
+
+    <div class="sidebar" id="sidebar">
+        <a id="closeBTTN" href="#" onclick="toggleSidebar()">
+            <span  class="material-symbols-outlined">
+                close
+            </span>
+        </a>
+        <a class="navBTTN" href="#">Home</a>
+        <a class="navBTTN" href="#">About</a>
+        <a class="navBTTN" href="#">Contact</a>
+    </div>
+    <!-- <div id="blob1"></div> -->
+    <!-- <div id="home">
         <h1 id="AAGALERIATXT"><span id="wcTXT">WELCOME TO</span><br>AA GALERIA</h1>
 
         <div id="imgcont">
             <div id="sqr1"></div>
-            <img id="aagMAINIMG" src="https://res.cloudinary.com/damtc4g0q/image/upload/v1724324922/aagal_d73ar1.jpg" alt="">
             
         </div>
-    </div>
+    </div> -->
     
 </body>
+
+<script type="text/javascript">
+    new FinisherHeader({
+      "count": 4,
+      "size": {
+        "min": 300,
+        "max": 1500,
+        "pulse": 0.1
+      },
+      "speed": {
+        "x": {
+          "min": 0,
+          "max": 0.2
+        },
+        "y": {
+          "min": 0,
+          "max": 0.2
+        }
+      },
+      "colors": {
+        "background": "#ab51ff",
+        "particles": [
+          "#ebfbb6",
+          "#30aadb",
+          "#15c316",
+          "#77a1ab"
+        //   "#ff636b",
+        //   "#fbff56",
+        //   "#ffc648",
+        //   "#ff77ff"
+        ]
+      },
+      "blending": "lighten",
+      "opacity": {
+        "center": 0.8,
+        "edge": 0.2
+      },
+      "skew": -2,
+      "shapes": [
+        "c",
+        "t"
+      ]
+    });
+</script>
+
+<script src="scripts/toggleSidebar.js"></script>
 
 <!-- <script src="scripts/time.js"></script> -->
 </html>

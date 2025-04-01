@@ -10,6 +10,43 @@
     /* font-family: "delius";
     text-decoration: none;
     margin: 10px; */
-    color: #dab33c;
-    font-size: 30px;
+    color: #010511;
+    font-size: 25px;
+    background-color: #ebfbb6;
+
+    border-radius: 20%;
+    margin: 5px;
+}
+
+#sidebar {
+    width: 150px;
+    height: 100vh;
+    padding: 0px;
+    background-color: #ebfbb6;
+    /* background: #333; */
+    color: white;
+    position: fixed;
+    top: 0;
+    left: -290px;
+    transition: left 0.3s ease;
+    /* padding: 20px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.navBTTN {
+    font-size: 15px;
+    text-align: left;
+    color: black;
+    width: 100px;
+    align-self: flex-start;
+    padding-left: 20px;
+}
+
+#closeBTTN {
+    color: black;
+    align-self: flex-end;
 }
