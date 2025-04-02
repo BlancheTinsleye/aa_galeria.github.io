@@ -1,3 +1,10 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
 #wcTXT {
     font-size: 15px;
     text-shadow: none;
@@ -6,26 +13,75 @@
 #AAGALERIATXT {
     text-align: center;
     margin: 0px;
-    font-size: 40px;
-    text-shadow: 2px 2px 0px black;
+    font-size: 50px;
+    /* text-shadow: 2px 2px 0px black; */
+
+    mix-blend-mode: difference;
+
+    /* grid-area: 1/1; */
 }
 
-#imgcont {
+
+#HOMEimgCONT {
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
+
+    
 }
 
-#aagMAINIMG, #sqr1 {
+#aagMAINIMG, .projIMG {
     grid-area: 1/1;
 }
 
 #aagMAINIMG {
     height: 200px;
     width: 200px;
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
     
 
     /* box-shadow: 10px 10px 0px black; */
+}
+
+#HOMEashleyWCC, #HOMEjuddWCC, #HOMEanthonyWCC,
+#HOMEblessWCC {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #010511;
+
+}
+
+#HOMEashleyWCC {
+    height: 110px;
+    width: 110px;
+    margin-bottom: 190px;
+    margin-right: 190px;
+
+}   
+
+#HOMEjuddWCC {
+    height: 100px;
+    width: 100px;
+
+    margin-bottom: 270px;
+    margin-left: 150px;
+}
+
+#HOMEanthonyWCC {
+    height: 95px;
+    width: 95px;
+
+    margin-top: 240px;
+    margin-right: 150px;
+}
+
+#HOMEblessWCC {
+    height: 90px;
+    width: 90px;
+
+    margin-top: 180px;
+    margin-left: 150px;
 }
 
 #sqr1 {
