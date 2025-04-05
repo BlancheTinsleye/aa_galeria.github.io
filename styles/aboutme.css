@@ -8,6 +8,9 @@
     flex-direction: column;
     background-color: #77a1ab;
 
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 
 #aboutmeTXT {
@@ -47,7 +50,7 @@
     border-radius: 10px;
     margin-bottom: 100px;
 
-    background-color: rgba(119, 161, 171, 0.804);
+    background-color: #77a1abcd;
 }
 
 #me {
