@@ -11,6 +11,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+
+    max-width: 1024px;
 }
 
 #skilledTXT {
@@ -60,4 +62,17 @@
 #cppLOGO, #mysqlLOGO, #figmaLOGO {
     /* height: 120px; */
     width: 130px;
+}
+
+@media (min-width: 768px) {
+    #skilledCONT {
+        /* display: grid; */
+        /* grid-template-columns: 2fr; */
+
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        justify-content: space-around;
+        /* align-items: center; */
+    }
 }

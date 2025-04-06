@@ -7,10 +7,20 @@
     display: flex;
     flex-direction: column;
     background-color: #77a1ab;
+    align-items: center;
+    /* justify-content: center; */
 
     padding-top: 50px;
     padding-bottom: 50px;
 
+}
+
+#px1024 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    max-width: 1024px;
 }
 
 #aboutmeTXT {
@@ -47,8 +57,8 @@
     width: 200px;
 
     padding: 5px;
-    margin-left: 200px;
     border-radius: 10px;
+    margin-left: 200px;
     margin-bottom: 100px;
 
     background-color: #77a1abcd;
@@ -80,4 +90,26 @@
     border: white solid 2px;
 
     box-shadow: 5px 5px 20px #010511;
+}
+
+@media (min-width: 1024px) {
+
+    #px1024 {
+        /* display: flex; */
+        flex-direction: row;
+        /* justify-content: space-around; */
+    }
+    
+    #me {
+        height: 20rem;
+        width: 20rem;
+        margin-right: 140px;
+
+    }
+    
+    #name {
+        margin-left: 250px;
+        margin-bottom: 150px;
+
+    }
 }

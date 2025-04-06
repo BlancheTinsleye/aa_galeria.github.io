@@ -93,3 +93,57 @@
     margin-right: 20px;
     /* margin-left: 20px; */
 }
+
+@media (min-width: 768px) {
+    #home {
+        flex-direction: row;
+        align-items: center;
+
+        justify-content: space-between;
+    }
+
+    #AAGALERIATXT {
+        margin-right: 10%;
+        font-size: 60px;
+        /* align-self: center; */
+        /* justify-self: center; */
+    }
+}
+
+@media (min-width: 1024px) {
+    #aagMAINIMG  {
+        height: 18rem;
+        width: 18rem;
+    }
+
+    #HOMEashleyWCC {
+        height: 10rem;
+        width: 10rem;
+        margin-bottom: 340px;
+        margin-right: 340px;
+    }
+
+    #HOMEjuddWCC {
+        height: 7rem;
+        width: 7rem;
+
+        margin-bottom: 320px;
+        margin-left: 300px;
+    }
+
+    #HOMEanthonyWCC {
+        height: 8rem;
+        width: 8rem;
+    
+        margin-top: 340px;
+        margin-right: 280px;
+    }
+
+    #HOMEblessWCC {
+        height: 7rem;
+        width: 7rem;
+    
+        margin-top: 280px;
+        margin-left: 250px;
+    }
+}

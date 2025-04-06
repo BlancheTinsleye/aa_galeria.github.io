@@ -1,8 +1,9 @@
 #navigatecont {
     display: flex;
     align-items: center;
+    align-self: self-start;
     /* justify-content: space-around; */
-    width: 100%;
+    /* width: 100%; */
     /* background-color: #f7bde6; */
 }
 
