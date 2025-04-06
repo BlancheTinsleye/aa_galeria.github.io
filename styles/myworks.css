@@ -1,0 +1,95 @@
+#myworksCONT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+
+    background-color: #77a1ab;
+}
+
+#myworksTXT {
+    color: #010511;
+    font-size: 60px;
+}
+
+#allworksCONT {
+    display: flex;
+    width: 98vw;
+    align-items: center;
+    /* justify-content: ; */
+    /* justify-content: space-around; */
+
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+
+    /* background-color: black; */
+}
+
+#CharcoalDrawingCONT, #WatercolorCalligCONT,
+#CoffeeCONT {
+    /* border: 2px solid #010511; */
+    box-shadow:  5px 5px 10px #010511;
+    margin: 10px;
+
+    width: 280px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 15px;
+
+    /* justify-content: center; */
+}
+
+#charcoaldrawingTXT, #watercolorTXT, #CoffeeTXT {
+    font-family: "Noto Sans Mono";
+    color: #ebfbb6;
+    font-size: 25px;
+}
+
+.charcoalCONT, .watercolorCONT,.coffeeCONT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 200px;
+    height: 220px;
+
+    border: 2px solid rgba(255, 255, 255, 0.377);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+
+    /* justify-content: space-around; */
+}
+
+.charcoalDRAWING, .watercolorCALLIG, .coffeeART {
+    height: 150px;
+    border-radius: 10px;
+ 
+}
+
+.projttl {
+    font-family: "Noto Sans Mono";
+    color: #ebfbb6;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    #allworksCONT {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1024px) {
+    #allworksCONT {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
