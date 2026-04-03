@@ -21,14 +21,24 @@
     font-family: "Grandstander-extrabold";
     font-size: 80px;
     font-weight: bolder;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #aboutme-1pTXT {
     text-indent: 2em;
     font-size: 40px;
 }
+
+#aboutme-2pTXT {
+    font-size: 40px;
+
+    margin-top: 70px;
+
+    width: 85%;
+    align-self: center;
+}
+
 
 .aboutme-prgphsCONT {
     display: flex;
