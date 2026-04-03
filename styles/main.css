@@ -1,10 +1,30 @@
-.grandstander-font {
+/* .grandstander-font {
   font-family: "Grandstander", cursive;
   font-optical-sizing: auto;
-  /* font-weight: <weight>; */
   font-style: normal;
 
+} */
+
+@font-face {
+  font-family: "lIMELIGHT";
+  src: url("../fonts/Limelight-Regular.ttf");
 }
+
+@font-face {
+  font-family: "Grandstander";
+  src: url("../fonts/grandstander/Grandstander-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Grandstander-thin";
+  src: url("../fonts/grandstander/Grandstander-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Grandstander-extrabold";
+  src: url("../fonts/grandstander/Grandstander-ExtraBold.ttf");
+}
+
 
 .limelight-regular {
   font-family: "Limelight", sans-serif;

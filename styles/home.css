@@ -31,25 +31,26 @@
 #home-nameTXT {
     color: #ECFF40;
     font-family: "Limelight";
-    font-size: 90px;
+    font-size: 100px;
     /* font-weight: extrabold; */
     font-weight: bolder;
     /* line-height: 120px; */
     /* font-style: normal; */
     /* height: 1px; */
     transform: scaleY(1.5);
-    line-height: 0.7;
+    line-height: 0.8;
     margin-left: 10px;
     /* -webkit-text-stroke: 2px white; */
     /* color: white; */
     
-    height: 150px;
+    height: 170px;
 
-    margin-top: 36px;
+    margin-top: 52px;
 }
 
 
 #home-positionTXT {
+    font-family: "Grandstander-thin";
     font-size: 35px;
     color: #ffffff;
     margin-left: 12px;
