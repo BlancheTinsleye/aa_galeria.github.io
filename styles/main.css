@@ -21,6 +21,11 @@
 }
 
 @font-face {
+  font-family: "Grandstander-bold";
+  src: url("../fonts/grandstander/Grandstander-Bold.ttf");
+}
+
+@font-face {
   font-family: "Grandstander-extrabold";
   src: url("../fonts/grandstander/Grandstander-ExtraBold.ttf");
 }
